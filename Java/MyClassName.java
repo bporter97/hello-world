@@ -12,4 +12,12 @@ class MyClassName
   the state of an object is determined by the values stored in
   its variables and its behavior is determined by its methods.
   */
+
+  String hello = "Hello World! From MyClassName!"; //Attribute
+
+  public void Hello()//method
+  {
+    System.out.println(hello);
+  }
+
 }//End of class definition
