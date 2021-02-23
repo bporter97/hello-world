@@ -11,6 +11,11 @@ class Main
     System.out.println("Hello World");
 
     MyClassName NewClass = new MyClassName(); //instantiation of 'NewClass' object of type 'MyClassName'
-    NewClass.Hello(); //calling methods
+    new GUI(); //calling GUI class
+    
+    //calling methods
+    NewClass.Hello(); 
+    
+    
   }//end main
 }//End Hello1 class.  No semicolon at end of Java class.
