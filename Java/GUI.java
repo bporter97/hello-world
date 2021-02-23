@@ -35,7 +35,7 @@ public class GUI implements ActionListener
 
         frame.add(panel, BorderLayout.CENTER);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setTitle("Weather App");
+        frame.setTitle("Basic Gui");
         frame.pack();
         frame.setVisible(true);
 
