@@ -4,13 +4,13 @@
 		{
 			"type": "cppbuild",
 			"label": "C/C++: cl.exe build active file",
-			"command": "VsDevCMD.bat",
+			"command": "cl.exe",
 			"args": [
 				"/Zi",
 				"/EHsc",
 				"/nologo",
 				"/Fe:",
-				"${fileDirname}\\C++\\GUI\\${fileBasenameNoExtension}.exe",
+				"${fileDirname}\\${fileBasenameNoExtension}.exe",
 				"${file}"
 			],
 			"options": {
