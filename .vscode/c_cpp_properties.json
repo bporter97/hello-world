@@ -4,10 +4,10 @@
             "name": "Win32",
             "includePath": [
                 "${workspaceFolder}/**",
-                "${WXWIN}\\include",
-                "${WXWIN}\\include\\msvc",
-                "${WXWIN}\\lib\\vc_lib",
-                "${WXWIN}\\lib\\vc_x64_lib"
+                /*"${WXWIN}\\include"*/"${LibC}\\wxWidgets3.1.4\\include",
+                /*"${WXWIN}\\include\\msvc"*/"${LibC}\\wxWidgets3.1.4\\include\\msvc",
+                /*"*${WXWIN}\\lib\\vc_lib"*/"${LibC}\\wxWidgets3.1.4\\lib\\vc_lib",
+                /*"${WXWIN}\\lib\\vc_x64_lib"*/ "${LibC}\\wxWidgets3.1.4\\lib\\vc_x64_lib"
             ],
             "defines": [
                 "_DEBUG",
